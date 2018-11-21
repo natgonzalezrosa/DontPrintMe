@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <!-- Meta tags and properties -->
+    <!-- Meta tags and Open Graph properties -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="HTML and CSS only website" />
@@ -12,7 +12,7 @@
     <meta property="og:title" content="Don't Print Me" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="Website" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="assets/css/screenshot.png" />
     <title>Don't Print me</title>
 
     <!-- Stylesheets, Google Fonts and Favicon -->
@@ -25,6 +25,7 @@
 
 <body>
 
+    <!-- Everything in this container will not print -->
     <div id="noprint">
 
         <!-- Header of website -->
@@ -34,7 +35,8 @@
 
         <!-- Container holding all recipes -->
         <article id="container">
-            <!-- First recipe -->
+
+            <!-- First recipe, sour -->
             <div class="recipe sour">
                 <h2 class="recipeTitle">Pickle-brined Turkey</h2>
                 <img src="assets/images/turkey.jpg" id="turkeyPic" alt="Pickle-brined turkey">
@@ -44,36 +46,37 @@
                 <h4 id="sourText">For the brave ones!</h4>
             </div>
 
-            <!-- Second recipe -->
-            <div class="recipe">
+            <!-- Second recipe, sweet -->
+            <div class="recipe sweet">
                 <h2 class="recipeTitle">Zesty Cranberry Sauce</h2>
+                <h4 id="sweetText">For those with a sweet tooth!</h4>
                 <img src="assets/images/cranberry.jpeg" id="cranberrySauce" alt="Cranberry sauce">
-                <p>Sweet cranberry sauce with a touch of orange zest. Excellent addition to a Turkey Day meal.</p>
+                <p>Sweet cranberry sauce with chunks of whole cranberries and a delicate touch of orange zest. Excellent addition to a Turkey Day meal.</p>
             </div>
 
-            <!-- Third recipe -->
+            <!-- Third recipe, sour -->
             <div class="recipe sour">
                 <h2 class="recipeTitle">Mashed Potatoes with Sour Cream and Chives</h2>
                 <img src="assets/images/mashedpotato.jpg" id="mashedPic" alt="Mashed potatoes">
-                <p>Delicious and savory mashed potatoes topped with sour cream and sprinkled chives.</p>
+                <p>Delicious and savory mashed potatoes topped with sour cream and sprinkled chives.  Rich, creamy and smooth texture - to die for!</p>
                 <h4 id="sourText">For the brave ones!</h4>
             </div>
 
-            <!-- Fourth recipe -->
-            <div class="recipe">
+            <!-- Fourth recipe, sweet -->
+            <div class="recipe sweet">
                 <h2 class="recipeTitle">Home-Baked Pumpkin Pie</h2>
+                <h4 id="sweetText">For those with a sweet tooth!</h4><br>
                 <img src="assets/images/pumpkinpie.jpg" id="pumpkinPie" alt="Pumpkin pie">
-                <p>Homemade pumpkin pie exploding with spicy flavors of cinnamon and nutmeg, topped with whipped cream.</p>
+                <p>Homemade pumpkin pie exploding with spicy flavors of cinnamon and nutmeg, topped with whipped cream.  Perfect dessert to finish off any Thanksgiving meal.</p>
             </div>
         </article>
     </div>
 
+    <!-- Printer Error when user tries to print -->
     <div id="print" align="center">
         <img src="assets/images/printererror.png" alt="Printer error" id="printerImage">
         <h1 id="printerTitle">Recipes cannot be printed.</h1>
     </div>
-
-
 </body>
 
 </html>
