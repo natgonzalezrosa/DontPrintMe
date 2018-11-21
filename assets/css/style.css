@@ -45,12 +45,12 @@ body {
 }
 
 #cranberrySauce {
-    float: right;
+    float: left;
     padding: 5px;
 }
 
 #pumpkinPie {
-    float: left;
+    float: right;
     padding: 5px;
 }
 
@@ -68,7 +68,7 @@ p {
 }
 
 img {
-    transition: all .2s ease-in-out;
+    transition: all .5s cubic-bezier(0.88, -0.21, 0.03, 1.22);
 }
 
 img:hover {
