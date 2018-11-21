@@ -14,3 +14,35 @@ body {
     letter-spacing: 1px;
 }
 
+#container {
+    display: flex;
+}
+
+#container div{
+    border: 1px #000000 solid;
+    padding: 10px;
+}
+
+.recipe {
+    flex: 50%;
+}
+
+#turkeyPic {
+    float: left;
+    padding: 10px;
+}
+
+#mashedPic {
+    float: right;
+    padding: 10px;
+}
+
+#cranberrySauce {
+    float: right;
+    padding: 10px;
+}
+
+#pumpkinPie {
+    float: left;
+    padding: 10px;
+}
