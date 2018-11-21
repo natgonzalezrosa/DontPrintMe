@@ -85,3 +85,16 @@ img {
 img:hover {
     transform: scale(1.2);
 }
+
+#sourText {
+    visibility: hidden;
+    font-family: 'Delius Swash Caps', cursive;
+    color: #731c2b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.sour:hover #sourText {
+    visibility: visible;
+}
