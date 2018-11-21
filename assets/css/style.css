@@ -1,3 +1,16 @@
 body {
     background: #e1f4e2;
 }
+
+#mainHeading {
+    margin: 0 auto;
+    font-size: 65px;
+    font-family: 'Delius Swash Caps', cursive;
+    font-style: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #f7f3ea;
+    text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;
+    letter-spacing: 1px;
+}
+
