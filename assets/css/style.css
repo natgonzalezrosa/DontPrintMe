@@ -26,6 +26,7 @@ body {
     margin: 20px;
     padding: 10px;
     background: #f7f3ea;
+    border-radius: 25px;
 }
 
 .recipe {
@@ -63,4 +64,13 @@ body {
 p {
     font-family: 'Lora', serif;
     font-size: 18px;
+    text-align: justify;
+}
+
+img {
+    transition: all .2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
 }
