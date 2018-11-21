@@ -1,3 +1,11 @@
+#print {
+    display: none;
+}
+
+#noprint {
+    display: block;
+}
+
 body {
     background: #e1f4e2;
 }
@@ -36,22 +44,22 @@ body {
 
 #turkeyPic {
     float: left;
-    padding: 5px;
+    padding: 2px;
 }
 
 #mashedPic {
     float: right;
-    padding: 5px;
+    padding: 2px;
 }
 
 #cranberrySauce {
     float: left;
-    padding: 5px;
+    padding: 2px;
 }
 
 #pumpkinPie {
     float: right;
-    padding: 5px;
+    padding: 2px;
 }
 
 .recipeTitle {
@@ -69,6 +77,9 @@ p {
 
 img {
     transition: all .5s cubic-bezier(0.88, -0.21, 0.03, 1.22);
+    border: 1px #000000 double;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 img:hover {

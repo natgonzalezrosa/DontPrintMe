@@ -15,53 +15,63 @@
     <meta property="og:image" content="" />
     <title>Don't Print me</title>
 
-    <!-- Stylesheet, Google Fonts, Font Awesome and Favicon -->
+    <!-- Stylesheets, Google Fonts and Favicon -->
     <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Lora:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/print.css" media="print" />
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
 
 </head>
 
 <body>
-    <!-- Header of website -->
-    <header>
-        <h1 id="mainHeading">"Don't Print Me" Recipes</h1>
-    </header>
 
-    <article id="container">
-        <!-- First article -->
-        <div class="recipe">
-            <h2 class="recipeTitle">Roasted Turkey with Stuffing</h2>
-            <img src="assets/images/turkey.jpeg" id="turkeyPic" alt="Turkey with stuffing">
-            <p>Perfectly roasted turkey breast seasoned with thyme, lemon and garlic. Perfect centerpiece for any Thanksgiving
-                dinner!</p>
-        </div>
+    <div id="noprint">
 
-        <!-- Second article -->
-        <div class="recipe">
-            <h2 class="recipeTitle">Creamy Garlic Mashed Potatoes</h2>
-            <img src="assets/images/mashedpotatoes.jpg" id="mashedPic" alt="Mashed potatoes">
-            <p>Delicious and savory mashed potatoes with a buttery, garlic taste and creamy texture.</p>
-        </div>
+        <!-- Header of website -->
+        <header>
+            <h1 id="mainHeading">"Don't Print Me" Recipes</h1>
+        </header>
 
+        <!-- Container holding all recipes -->
+        <article id="container">
+            <!-- First recipe -->
+            <div class="recipe">
+                <h2 class="recipeTitle">Roasted Turkey with Stuffing</h2>
+                <img src="assets/images/turkey.jpeg" id="turkeyPic" alt="Turkey with stuffing">
+                <p>Perfectly roasted turkey breast seasoned with thyme, lemon and garlic. Perfect centerpiece for any Thanksgiving
+                    dinner!
+                </p>
+            </div>
 
-        <!-- Third article -->
-        <div class="recipe">
-            <h2 class="recipeTitle">Zesty Cranberry Sauce</h2>
-            <img src="assets/images/cranberry.jpeg" id="cranberrySauce" alt="Cranberry sauce">
-            <p>Sweet cranberry sauce with a touch of orange zest. Excellent addition to a Turkey Day meal.</p>
-        </div>
+            <!-- Second recipe -->
+            <div class="recipe">
+                <h2 class="recipeTitle">Creamy Garlic Mashed Potatoes</h2>
+                <img src="assets/images/mashedpotatoes.jpg" id="mashedPic" alt="Mashed potatoes">
+                <p>Delicious and savory mashed potatoes with a buttery, garlic taste and creamy texture.</p>
+            </div>
 
 
-        <!-- Fourth article -->
-        <div class="recipe">
-            <h2 class="recipeTitle">Home-Baked Pumpkin Pie</h2>
-            <img src="assets/images/pumpkinpie.jpg" id="pumpkinPie" alt="Pumpkin pie">
-            <p>Homemade pumpkin pie exploding with spicy flavors of cinnamon and nutmeg, topped with whipped cream.</p>
-        </div>
-    </article>
+            <!-- Third recipe -->
+            <div class="recipe">
+                <h2 class="recipeTitle">Zesty Cranberry Sauce</h2>
+                <img src="assets/images/cranberry.jpeg" id="cranberrySauce" alt="Cranberry sauce">
+                <p>Sweet cranberry sauce with a touch of orange zest. Excellent addition to a Turkey Day meal.</p>
+            </div>
+
+
+            <!-- Fourth recipe -->
+            <div class="recipe">
+                <h2 class="recipeTitle">Home-Baked Pumpkin Pie</h2>
+                <img src="assets/images/pumpkinpie.jpg" id="pumpkinPie" alt="Pumpkin pie">
+                <p>Homemade pumpkin pie exploding with spicy flavors of cinnamon and nutmeg, topped with whipped cream.</p>
+            </div>
+        </article>
+    </div>
+
+    <div id="print" align="center">
+        <img src="assets/images/printererror.png" alt="Printer error" id="printerImage">
+        <h1 id="printerTitle">Recipes cannot be printed.</h1>
+    </div>
 
 
 </body>
