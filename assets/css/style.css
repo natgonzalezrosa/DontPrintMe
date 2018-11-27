@@ -95,10 +95,10 @@ img:hover {
     font-size: 27px;
     font-weight: 800;
     letter-spacing: 1px;
-    vertical-align: middle;
+    display: block;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .sweet:hover::before {
@@ -108,5 +108,8 @@ img:hover {
     font-size: 20px;
     font-weight: 800;
     letter-spacing: 1px;
+    display: block;
     text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
