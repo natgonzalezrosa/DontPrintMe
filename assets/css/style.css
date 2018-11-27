@@ -88,34 +88,25 @@ img:hover {
     transform: scale(1.2);
 }
 
-/* Text for sour recipes */
-#sourText {
-    visibility: hidden;
-    font-family: 'Delius Swash Caps', cursive;
+.sour:hover::after {
+    content: 'For the brave ones!';
+    font-family: 'Lora', serif;
     color: #731c2b;
-    font-size: 36px;
-    text-align: center;
+    font-size: 27px;
+    font-weight: 800;
     letter-spacing: 1px;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Text for sweet recipes */
-#sweetText {
-    visibility: hidden;
-    font-family: 'Delius Swash Caps', cursive;
+.sweet:hover::before {
+    content: 'For those with a sweet tooth!';
+    font-family: 'Lora', serif;
     color: #2f173e;
     font-size: 20px;
-    text-align: center;
+    font-weight: 800;
     letter-spacing: 1px;
-    margin: 0px;
     text-align: right;
-}
-
-/* Sour text appears upon hover of sour div */
-.sour:hover #sourText {
-    visibility: visible;
-}
-
-/* Sweet text appears upon hover of sweet div */
-.sweet:hover #sweetText {
-    visibility: visible;
 }
