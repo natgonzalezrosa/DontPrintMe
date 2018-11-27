@@ -7,4 +7,4 @@ This is a recipe web application that forces the user to visit the website to vi
 [Click here to view demo](https://natgonzalezrosa.github.io/DontPrintMe/)
 
 ## Screencap
-![Screenshot](/assets/images/screenshot.png)
+![Screenshot](/assets/images/screenshot_v2.png)
